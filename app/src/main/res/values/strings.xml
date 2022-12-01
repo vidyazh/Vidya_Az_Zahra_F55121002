@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Vidya_Az_Zahra_F55121002</string>
+    <string name="title">Vidya</string>
+    <string name="description">My Name is Vidya Az Zahra, Im a student at Tadulako University and now im 20th years old, i love design and i love watching Disney movies, my favorite drink is matcha. Also, my MBTI is INFJ</string>
+
+    <string-array name="data_name">
+        <item>Vidya Az Zahra</item>
+        <item>Nydia Eldiana</item>
+        <item>Nadia Rizkia</item>
+        <item>Ilma Cahya Putri</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>My Name is Vidya Az Zahra, Im a student at Tadulako University and now im 20th years old, i love design and i love watching Disney movies, my favorite drink is matcha. Also, my MBTI is INFJ</item>
+        <item>My Name is Nydia Eldiana, Im a student at Hasanuddin University and now im 19th years old, i love drawing thats why i choose Architecture for my major, i love listening to music. And my MBTI is ENFP.</item>
+        <item>My Name is Nadia Rizkia Firdausi, Im a student at Hasanuddin University and now im 19th years old, i love helping people thats why i choose Public Health for my major, i love going anywhere exploring places, my MBTI is ENFP.</item>
+        <item>My Name is Ilma Cahya Putri, Im a student of Poltekes Palu, and now im 20th years old, i love helping people thats why i choose Public Health for my major, i love making a food for my loved ones. My MBTI is INFP.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/vidya</item>
+        <item>@drawable/nydia</item>
+        <item>@drawable/nadia</item>
+        <item>@drawable/maya</item>
+    </string-array>
+
+    <string name="abt_vidya">My Name is Vidya Az Zahra, Im a student at University Tadulako and now im 20th years old, i love design and i love watching Disney movies, my favorite drink is matcha. Also, my MBTI is INFJ</string>
+    <string name="abt_nydia">My Name is Nydia Eldiana, Im a student at Hasanuddin University and now im 19th years old, i love drawing thats why i choose Architecture for my major, i love listening to music. And my MBTI is ENFP.</string>
+    <string name="abt_nadia">My Name is Nadia Rizkia Firdausi, Im a student at Hasanuddin University and now im 19th years old, i love helping people thats why i choose Public Health for my major, i love going anywhere exploring places, my MBTI is ENFP.</string>
+    <string name="abt_maya">My Name is Ilma Cahya Putri, Im a student of Poltekes Palu, and now im 20th years old, i love helping people thats why i choose Public Health for my major, i love making a food for my loved ones. My MBTI is INFP.</string>
+</resources>

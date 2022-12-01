@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/list1"
+        android:layout_width="1537px"
+        android:layout_height="569px"
+        android:background="@drawable/list"
+        android:layout_marginTop="16px"
+        android:layout_centerHorizontal="true">
+        
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="377px"
+            android:layout_height="377px"
+            android:src="@drawable/vidya"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100px">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_toRightOf="@id/img_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="80px"
+            android:fontFamily="@font/poppins_extra_bold"
+            android:textSize="70px"
+            android:textColor="#E37B58">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_below="@id/txt_name"
+            android:layout_toRightOf="@id/img_photo"
+            android:layout_width="900px"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:layout_marginLeft="70px"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:textSize="40px"
+            android:textColor="#000000"
+            android:maxLines="4">
+
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

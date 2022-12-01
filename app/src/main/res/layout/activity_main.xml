@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1134px"
+        android:src="@drawable/bg_season"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="592px"
+        android:layout_height="wrap_content"
+        android:text="ALL ABOUT MY BESTIE"
+        android:fontFamily="@font/poppins_extra_bold"
+        android:textSize="90px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="50px"
+        android:textColor="#E37B58"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1578px"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/latar1">
+        </ImageView>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="1559px"
+            android:layout_alignParentBottom="true">
+
+        </ListView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
